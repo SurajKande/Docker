@@ -31,4 +31,12 @@
   
   - Containers contain application code as well as dependencies , which include OS level related dependencies as well.
     - for example as all linux variants contain the same Linux Kernal more or less ( The kernel is the most important part of the operating system. It is the primary interface between the hardware and the processes of a computer ) its pointless in duplicating the same set of files over and over in multiple VM's if all containes can just access them in their own isolated environment
-    - 
+    - the Files which are uncommon, containers contain them along with the application
+  
+  - The Process of creating Containers and running them are done by same Container runtime environment , there will be no conflict of environment
+  - hence Containers can attain same level of isolation as VM's , while sharing the resources to the host OS instead of duplicating
+    - Consumes less storage and memory
+    - Easier and faster to ship
+    - if they work on one machine, they work on all machines ( as all dependencies are packed into the container )
+    - cost efficient and easy to scale
+    - possible to eliminate data loss and downtime
