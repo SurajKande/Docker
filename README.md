@@ -40,3 +40,8 @@
     - if they work on one machine, they work on all machines ( as all dependencies are packed into the container )
     - cost efficient and easy to scale
     - possible to eliminate data loss and downtime
+
+### Docker
+  - An Open platform for developers and system admins to build, ship and run containerized applications
+  - Most widely used Containerization platform ( another example for Containerization platform is rocket )
+  - Hence has a good Community support and has large amount of 3rd party application support
